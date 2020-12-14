@@ -75,6 +75,7 @@ th, td {
 }
 
 .delete-action:hover {
+    cursor: pointer;
     color: rgb(229, 68, 68);
 }
 
