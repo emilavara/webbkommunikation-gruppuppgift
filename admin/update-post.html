@@ -2,10 +2,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
 </head>
 <body>
+    <div id="wrapper">
+        <div class="header">
+            <a href="../index.html"><span>big boi blog</span></a>
+        </div>
+        <div id="admin-text">
+            <a href="../index.html"><span>home page</span></a>
+        </div>
+        <hr class="mgn-btm">
+        <div class="header-2"><span>update post</span></div>
+        <a href="index.html" class="create-post"><span>admin page</span></a>
+        <form id="post-form">
+            <input class="title-form" type="text" placeholder="title"></input> <br><br>
+            <input class="author-form" type="text" placeholder="author"></input> <br><br>
+            <textarea class="content-form" type="text" placeholder="blog post"></textarea> <br><br>
+            <input class="tags-form" type="text" placeholder="tags, comma-separated"></input> <br><br>
+            <input type="submit" class="submit-form" value="submit">
+        </form>
+    </div>
     <script src="js/update-post.js"></script>
 </body>
 </html>
