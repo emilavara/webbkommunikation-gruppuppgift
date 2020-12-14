@@ -78,6 +78,49 @@ th, td {
     color: rgb(229, 68, 68);
 }
 
+#post-form {
+    clear: both;
+    text-align: center;
+
+}
+
+input, textarea {
+    background-color: #151515;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    font-family: arial;
+    font-size: 16pt;
+    width: 100%;
+    padding-left: 5px;
+}
+
+.title-form {
+    height: 40px;
+}
+
+.author-form {
+    height: 40px;
+}
+
+.content-form {
+    height: 200px;
+    resize: none;
+}
+
+.tags-form {
+    height: 40px;
+}
+
+.submit-form {
+    height: 40px;
+    color: #e38f0e;
+}
+
+::placeholder {
+    color: #808080;
+}
+
 @font-face {
     font-family: circular-bold;
     src: url('../font/circular-bold.otf');
