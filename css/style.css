@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: sans-serif;
+    color: white;
+}
+
+#wrapper {
+    width: 800px;
+    margin: auto;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    clear: both;
+    color: #202020;
+}
+
+#header {
+    font-size: 32pt;
+    color: #e38f0e;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    /* font-family: circular-medium; */
+}
+
+.mgn-btm {
+    margin-bottom: 40px;
+}
+
+#admin-text {
+    float: right;
+    position: relative;
+    top: 35px;
+}
+
+.posts-container {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 22pt;
+}
+
+.author {
+    float: left;
+    padding-right: 10px;
+    font-size: 11pt;
+    color: #404040;
+}
+
+.date {
+    float: right;
+    padding-right: 10px;
+    font-size: 11pt;
+    color: #404040;
+}
+
+.content {
+    clear: both;
+    padding-top: 10px;
+}
+
+.tags {
+    padding-top: 10px;
+    font-size: 11pt;
+    color: #404040;
+}
+
+@font-face {
+    font-family: circular-bold;
+    src: url('../font/circular-bold.otf');
+}
+@font-face {
+    font-family: circular-medium;
+    src: url('../font/circular-medium.otf');
+}
+@font-face {
+    font-family: circular-black;
+    src: url('../font/circular-black.otf');
+}

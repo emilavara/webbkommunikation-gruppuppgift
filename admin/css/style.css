@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: sans-serif;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    clear: both;
+    color: #202020;
+}
+
+.mgn-btm {
+    margin-bottom: 40px;
+}
+
+#wrapper {
+    width: 800px;
+    margin: auto;
+}
+
+.header {
+    font-size: 32pt;
+    color: #e38f0e;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    /* font-family: circular-medium; */
+}
+
+.header a {
+    color: #e38f0e;
+    text-decoration: none;
+}
+
+.header-2 {
+    font-size: 22pt;
+    color: #e38f0e;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    /* font-family: circular-medium; */
+}
+
+.create-post {
+    float: right;
+    position: relative;
+    top: 25px;
+}
+
+.table {
+    clear: both;
+    border: 2px solid #202020;
+    background-color: #101010;
+}
+
+th, td {
+    border: 2px solid #202020;
+  }
+
+#admin-text {
+    float: right;
+    position: relative;
+    top: 35px;
+}
+
+.delete-action:hover {
+    color: rgb(229, 68, 68);
+}
+
+@font-face {
+    font-family: circular-bold;
+    src: url('../font/circular-bold.otf');
+}
+@font-face {
+    font-family: circular-medium;
+    src: url('../font/circular-medium.otf');
+}
+@font-face {
+    font-family: circular-black;
+    src: url('../font/circular-black.otf');
+}
