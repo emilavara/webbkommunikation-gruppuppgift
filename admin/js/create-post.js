@@ -4,7 +4,7 @@ $(document).ready(function() {
         createPost();
     });
 
-    function createPost(){
+    function createPost(){                  //create post
         var formData = {
             title : $("#title").val(),
             author : $("#author").val(),
@@ -12,13 +12,13 @@ $(document).ready(function() {
             tags : $("#tags").val()
         }
 
-        $.ajax({
+        $.ajax({                            //do ajax
             type: "POST",
             contentType: "application/json",
             url: "http://localhost:3000/posts",
             data: JSON.stringify(formData),
             dataType: "json",
-            success: function(customer) {
+            success: function() {
                 window.location.href = "index.html";
             },
             error: function(i) {
@@ -29,7 +29,7 @@ $(document).ready(function() {
     }
 
     resetData();
-    function resetData(){
+    function resetData(){                   //reset data after success
         $("#title").val("");
         $("#author").val("");
         $("#content").val("");
