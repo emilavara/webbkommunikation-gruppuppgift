@@ -7,7 +7,6 @@ $(document).ready(function(){
             post_data += '<td>'+value.author+'</td>';
             post_data += '<td>'+value.date+'</td>';
             post_data += `<th><a href="./update-post.html">✎</a> | <a class="delete-action" onclick="deletePost('${value._id}')">✖</a></th>`;
-
         });
         $('.table').append(post_data);
     });
